@@ -1,0 +1,112 @@
+Cullen - 
+buy a domain
+Cullen - 
+buy hosting
+Cullen - 
+setup the domain and hosting
+Cullen - 
+upload the files for the website
+Cullen - 
+done
+Cullen - 
+???
+Tina Cancio - 
+alrreeady bought a domain & the hosting package
+Cullen - 
+profit
+Tina Cancio - 
+can u tell me how?
+Cullen - 
+login to gateway.godaddy.com
+Cullen - 
+click seup
+Tina Cancio - 
+step-bystep please
+Tina Cancio - 
+ok!
+Tina Cancio - 
+next?
+Cullen - 
+got the hosting setup?
+Tina Cancio - 
+create the cpanel username & password?
+Cullen - 
+yes
+Tina Cancio - 
+why can't i click FINISH?
+Cullen - 
+what field is in red?
+Tina Cancio - 
+dO I tell u my username?
+Cullen - 
+nope
+Cullen - 
+once its setup we can get any information we need, never tell your password
+Tina Cancio - 
+ok ! got it...iut had an uppercase lette
+Tina Cancio - 
+got it
+Tina Cancio - 
+it is setting up
+Cullen - 
+https://support.godaddy.com/help/article/96/upload-files-to-your-website-ftp?locale=en
+Cullen - 
+that's one method to get the files to your hosting
+Cullen - 
+it's the method I recommend
+Tina Cancio - 
+ok !
+Tina Cancio - 
+can I do updates often...like changing the files etc?
+Cullen - 
+if you want to install an application, once in cpanel, click the applications page
+Cullen - 
+anytime you wish, its your hosting
+Tina Cancio - 
+ok!
+Tina Cancio - 
+can I change the name of the domain?
+Tina Cancio - 
+anytime?>
+Cullen - 
+it takes a little time whenever you change it, and it wont show up unless you actually own the domain, but you can set it to whatever you wish
+Tina Cancio - 
+ok!
+Cullen - 
+Is there anything else I can assist you with at this time?
+Tina Cancio - 
+is your metnod easier?
+Tina Cancio - 
+method
+Cullen - 
+no, but its much faster
+Cullen - 
+To access your  file manager go to https://gateway.godaddy.com -> Manage -> File Manager in the green bar at the top
+Cullen - 
+that's the other method you can use once the cpanel is setup
+Tina Cancio - 
+i need to have a FTP for that right?
+Cullen - 
+correct
+Cullen - 
+for the first method you need an FTP clinet
+Cullen - 
+client
+Tina Cancio - 
+ok!
+Tina Cancio - 
+Do I need to have FTP for the cpanel set up?
+Cullen - 
+you just created your FTP username and password
+Cullen - 
+and its automatically configured
+Tina Cancio - 
+ok !
+Tina Cancio - 
+thanks will get back to you once i actually start with hosting
+Tina Cancio - 
+thanks for your help!
+Cullen - 
+Sounds good, we'll be here!
+Cullen - 
+Thank you for using Live Chat. To help us serve you better, please take a moment to complete a short survey. It will display as you close the chat by clicking the chat bubble at the top right of the screen.

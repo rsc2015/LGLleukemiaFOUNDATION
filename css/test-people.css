@@ -1,0 +1,444 @@
+﻿body{
+           margin:0;
+     Font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+#wrapper {
+   min-height:100%;
+   position:relative;
+}
+#container {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+#header{
+width: 900px;
+height: 128px;
+margin: auto;
+padding-top:0;
+
+}
+#header img{
+border:0 none;
+margin:5px 0 5px 15px;
+}
+#headerLeft{
+float:left;
+height:128px;
+padding: 0;
+
+}
+
+#headerRight{
+float:right;
+margin-top: 5px;
+width:528px;
+height: 45px;
+border-bottom:1px solid #ccc
+
+}
+
+#headerList ul{
+float:left;
+margin: 13px 0 0 35px ;
+padding: 0;
+text-align: right;
+}
+#headerList li{
+  display: inline;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+ 
+  font-size: 12px;
+  border-right: 1px solid #ccc;
+}
+
+#headerList a{
+color:#CC0000;
+}
+
+#search {
+  float: left;
+  margin: 12px 0 0 10px;
+  padding:  0;
+ vertical-align:middle;
+ 
+}
+#search img{
+float:right;
+padding:0;
+border:0 none;
+margin: 0px 2px 0 0px;
+
+}
+#socialmedia-container {
+float:right;
+height:50px;
+margin-right:20px ;
+padding-right: 18px;
+padding-top: 18px;
+}
+#socialmedia-container img, a {
+text-decoration: none;
+padding:0px;
+margin:0px;
+
+}
+    
+.fixedwidth{
+           width:900px;
+           margin:0 auto;
+           
+}
+
+#nav {
+background-color:#a89c9c;
+              width: 100%;
+               Height:54px ;
+                margin: 0px;
+
+}
+#nav2{
+margin-top:70px;
+background-color:#ccc;
+
+}
+
+
+#topmenu1{
+    list-style:none;
+    font-weight:bold;
+    margin-bottom:10px;
+    float:left; /* Clear floats */
+    width:100%;
+
+    /* Bring the nav above everything else--uncomment if needed.
+    position:relative;
+    z-index:5;
+    */
+}
+#topmenu1 li{
+    float:left;
+    position:relative;
+     height:26px;
+       border-left:1px solid #f6d6b3;
+border-right:1px solid #f6d6b3;
+             padding: 0px 24px 0px 24px;
+}
+
+#topmenu1 a{
+    display:block;
+    padding:4.5px;
+    color:#fff;
+    text-decoration:none;
+}
+
+#topmenu1 li:hover{
+    height:27px;
+background-color:#ef9739;
+Margin:0;
+color:#fff;
+}
+
+
+/*--- DROPDOWN ---*/
+#topmenu1 ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+padding:10px 0 0 0;
+}
+#topmenu1 ul li{
+    padding:1px 0 0 0; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float:none;
+
+}
+#topmenu1 ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#topmenu1 li:hover ul{ /* Display the dropdown on hover */
+    left:10px; /* Bring back on-screen when needed */
+}
+#topmenu1 li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    background:#ef9739;
+    text-decoration:underline;
+}
+#topmenu1 li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+#topmenu1 li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background:#a89c9c;
+}
+.clear {
+clear: both;
+}
+#nav2 ul {
+width: auto;
+background-color:#ccc;
+margin-left: 90px;
+padding:0;
+}
+#main-content{
+ 
+  background: #ffffff;
+  width: 900px;
+height:100%;
+margin: auto;
+padding:0;
+}
+    #slideshow {
+        width:80%;
+            height:400px;
+        margin:auto ;
+        padding:0px;
+        
+    }
+    
+   #mission {
+       text-align:center;
+       margin:20px ;
+   }
+    h2, h4 {
+        margin:5px;
+        padding:0;
+    }
+    
+    .mission1{
+        float:left;
+        width:75%;
+        text-align:left;
+        margin:20px 0px 10px 10px;
+    }
+    #aboutlist{
+        float:left;
+        width:15%;
+       padding:0;
+margin:0;
+    }
+    #aboutlist ul{
+    padding:10px  10px 0 0 ;
+        margin:0;
+    }
+
+#aboutlist li{
+line-height:1.25em;
+}
+
+#description {
+        margin:20px;
+        float:left;
+        width:80%;
+       }
+#centerColumnPageTitle h2 {
+ 
+ font-family: Verdana, Geneva, sans-serif;
+  
+font-size: 18px;
+  
+line-height: 24px;
+  
+font-weight: bold;
+  
+color: #CC0000;
+
+}
+
+#centerColumnHeader {
+width:80%
+}    
+   
+ h1, .heading1 {
+ 
+ font-family: Verdana, Geneva, sans-serif;
+ 
+ font-size: 18px;
+  
+line-height: 20px;
+  
+font-weight: normal;
+  
+color: #CC0000;
+
+
+}
+    
+p, .paragraph 
+{
+  font-family: Verdana, Geneva, sans-serif;
+  
+font-size: 13px;
+  
+line-height: 17px;
+  
+color: #333;
+  margin: 0 0 12px 0;
+
+}
+    
+h2, .heading2 {
+ 
+ font-family: Verdana, Geneva, sans-serif;
+ 
+ font-size: 16px;
+  
+
+font-weight: bold;
+  
+line-height: 20px;
+  
+color: #333;
+
+}
+ 
+#primary {
+margin: 35px 30px;
+padding:0;
+
+}
+
+#intro {
+margin: 15px 25px 25px 13px ;
+padding:10px;
+height: 330px;
+}
+
+#founder-intro {
+width:68%;
+height:330px;
+float: left;
+}
+
+#founder-intro p {
+font-size:1.25em;
+line-height:1.6em;
+text-align:justify;
+}
+
+#founder-pic {
+float: right;
+margin:0;
+padding:0;
+}
+
+
+#founder-content{
+margin: 15px 25px 25px 13px ;
+padding:10px;
+
+}
+
+#contribute {
+margin-left:auto ;
+margin-right:auto ;
+
+}
+
+#paypal  { 
+
+margin-top: 25px ;
+margin-bottom:25px ;
+}
+
+
+#article {
+margin:auto;
+padding:0;
+border:0;
+width:700px;
+margin-bottom:30px;
+text-align:justify;
+}
+
+#footer {
+background:URL("../images/footer-gray2.png") repeat-x ;
+height:170px;
+    clear:both;
+
+}
+#footer-content {
+width:900px ;
+height:120px ;
+margin: 0 auto;
+padding-top:20px;
+}
+.footer-menu-container{
+float:left;
+width:200px;
+height:120px;
+margin-right:20px;
+}
+.moduletable li {
+margin:0;
+padding:0;
+border:0;
+list-style:none;
+}
+
+
+ul.joomla-nav-footer li a {
+  font-family: "Lucida Sans Unicode";
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.75em;
+  color: #fff;
+list-style:none;
+}
+
+#socialmedia-container1 {
+float:right;
+height:50px;
+margin-right:20px ;
+padding-right: 18px;
+padding-top: 18px;
+}
+#socialmedia-container1 img, a {
+text-decoration: none;
+padding:0px;
+margin:0px;
+
+}
+.moduletable-1 li {
+margin:0;
+padding:0;
+border:0;
+list-style:none;
+}
+#bottom-footer {
+  display: block;
+  background: #a89c9c;
+  width: 100%;
+  height: 150px;
+  position:relative;
+  
+
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.entry-content  img {
+float: right ;
+}
+.entry-content{
+float:left;
+width: 80%;
+}
+.entry-content p {
+font-size:1.25em;
+line-height:1.6em;
+
+}
+
+.entry-title {
+font-weight: bold;
+font-size: 24px;
+margin: 25px 0 0 25px ;
+text-decoration:underline;
+}
